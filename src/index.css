@@ -61,11 +61,18 @@ body {
 }
 
 .janela2 p {
+    font-weight: bold;
     margin-left: 25px;
     margin-top: 25px;
     text-transform: uppercase;
     text-align: start;
     font-size: 20px;
+}
+
+.icon {
+    max-width: 32px;
+    max-height: 32px;
+    margin: 10px;
 }
 
 .janela3 {
@@ -75,7 +82,23 @@ body {
     clear: both;
 }
 
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-control-next {
+    display: flex;
+    margin-right: 30px;
+}
+
+.carousel-control-next {
+    display: flex;
+}   
+
+
 .fotos {
-    width: 1000px;
+    width: 95%;
     height: 523px;
 }
+
+
