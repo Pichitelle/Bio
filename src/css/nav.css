@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    transition: all;
+}
+
+.nav_bar {
+    list-style-type: none;
+}
+
+.lista {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(181, 181, 9);
+    transition-duration: 0.5s;
+}
+
+.lista:hover {
+    color: #fff;
+}
+
+.navbar button {
+    display: block;
+    height: 30px;
+}
+
+.menu {
+    display: block;
+    text-transform: uppercase;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.menu ul ul {
+    display: none;
+    margin: 0;
+}
+
+.menu ul li:hover>ul {
+    background-color: black;
+    position: absolute;
+    display: block;
+}

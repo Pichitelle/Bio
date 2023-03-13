@@ -1,0 +1,16 @@
+.janela1 {
+    height: 1000px;
+    width: 73.5%;
+    background-color: #198754;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.janela1 span {
+    display: flex;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 55px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}

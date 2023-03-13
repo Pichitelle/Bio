@@ -1,0 +1,53 @@
+.formulario {
+    margin-top: 55px;
+    margin-left: 35px;
+}
+
+.form_cadastro {
+    display: flex;
+    margin: 20px;
+}
+
+.form_cadastro input {
+    border-radius: 10px;
+    background-color: #adb5bd;
+    border: 1px solid;
+}
+
+.form_name {
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+.form_tel {
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+.col-auto select {
+    margin-bottom: 5px;
+    margin-left: 12px;
+    border-radius: 10px;
+    max-width: 260px;
+    background-color: #adb5bd;
+    border: 1px solid;
+    
+}
+
+.btn {
+    display: flex;
+    float: left;
+}
+
+.btn button {
+    text-transform: uppercase;
+   border: none;
+   color: black;
+   transition: 0.7s;
+}
+
+.btn button:hover {
+    color: #198754;
+    background-color: black;
+}
+

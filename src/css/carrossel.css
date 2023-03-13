@@ -1,0 +1,17 @@
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-control-next {
+    display: flex;
+    margin-right: 30px;
+}
+
+.carousel-control-next {
+    display: flex;
+}
+
+.fotos {
+    width: 95%;
+    height: 523px;
+}

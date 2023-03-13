@@ -5,7 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="./src/index.css" />
+        <link rel="stylesheet" href="./src/css/index.css" />
+        <link rel="stylesheet" href="/src/css/formulario.css" />
+        <link rel="stylesheet" href="/src/css/carrossel.css" />
+        <link rel="stylesheet" href="/src/css/conhecimentos.css" />
+        <link rel="stylesheet" href="/src/css/janela1.css" />
+        <link rel="stylesheet" href="/src/css/janela2.css" />
+        <link rel="stylesheet" href="/src/css/janela3.css" />
+        <link rel="stylesheet" href="/src/css/nav.css" />
         <title>Document</title>
     </head>
     <body>
@@ -18,9 +25,17 @@
                 <li><a class="lista" href="Sobre">Sobre</a></li>
             </ul>
 
-            <ul class="nav_bar">
-                <li><a class="lista" href="Contato">Contato</a></li>
-            </ul>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#"> Serviços </a>
+                        <ul>
+                            <li><a href="Desenvolvimento Web"> Desenvolvimento Web</a></li>
+                            <li><a href="Photoshop"> Photoshop</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <section class="janela1">
@@ -46,6 +61,22 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+            </div>
+
+            <h2 class="formulario">Formulário</h2>
+            <div class="form_cadastro">
+                <form action="destino.html" method="post">
+                    <div class="form_name">
+                        <input type="text" name="nome" id="nome" size="30" maxlength="100" placeholder="Insira seu nome" />
+                    </div>
+                    <div class="form_tel">
+                        <input type="tel" name="telefone" id="telefone" size="30" maxlength="30" placeholder="Telefone" />
+                    </div>
+
+                    <div class="btn">
+                        <button type="button" class="btn btn-outline-warning">Enviar</button>
+                    </div>
+                </form>
             </div>
         </section>
 
