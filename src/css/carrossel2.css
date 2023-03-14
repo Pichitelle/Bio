@@ -1,0 +1,42 @@
+h2 {
+    display: block;
+    color: #ffc107;
+    font-size: 55px;
+    margin-top: 70px;
+    margin-bottom: 65px;
+    margin-left: 45px;
+    list-style-type: circle;
+}
+
+h2 span {
+    max-height: 35px;
+}
+
+.carrossel {
+    display: flex;
+    float: left;
+    max-width: 50%;
+    margin-left: 25px;
+}
+
+.foto {
+    height: 100%;
+    width: 685px;
+}
+
+.texto1 {
+    display: flex;
+    float: right;
+    max-width: 40%;
+    margin-right: 55px;
+    margin-top: 60px;
+}
+
+.texto {
+   font-size: 25px;
+   color: #198754;
+}
+
+h1 {
+    color: blueviolet;
+}

@@ -11,8 +11,9 @@
 .lista {
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(181, 181, 9);
+    color: yellowgreen;
     transition-duration: 0.5s;
+    font-weight: bold;
 }
 
 .lista:hover {
@@ -36,6 +37,7 @@
 .menu a {
     text-decoration: none;
     color: yellowgreen;
+    font-weight: bold;
 }
 
 .menu a:hover {

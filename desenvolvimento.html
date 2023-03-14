@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="/src/css/body.css" />
+        <link rel="stylesheet" href="/src/css/nav.css" />
+        <link rel="stylesheet" href="/src/css/carrossel2.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="nav_bar">
+                <li><a class="lista" href="/index.html">Home</a></li>
+            </ul>
+
+            <ul class="nav_bar">
+                <li><a class="lista" href="/sobre.html">Sobre</a></li>
+            </ul>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#"> Serviços </a>
+                        <ul>
+                            <li><a href="/desenvolvimento.html"> Desenvolvimento Web</a></li>
+                            <li><a href="/photoshop.html"> Photoshop</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>.Projetos</h2>
+
+        <div class="carrossel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="foto" src="/src/img/e-commerce1.png" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="foto" src="/src/img/e-commerce2.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="foto" src="/src/img/e-commerce3.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="texto1">
+            <section>
+                <h1>E-Commerce</h1>
+                <p class="texto">
+                    Um site de e-commerce é aquele que permite que as pessoas comprem e vendam bens físicos, serviços e produtos digitais pela
+                    internet, em vez de em um local físico. Por meio de um site de e-commerce, uma empresa pode processar pedidos, aceitar pagamentos,
+                    gerenciar remessas e logística e fornecer atendimento ao cliente.
+                </p>
+            </section>
+        </div>
+
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
